@@ -1,0 +1,44 @@
+body{
+    display: grid;
+    place-content: center;
+}
+.container {
+    background-color:hsl(212, 45%, 89%);
+    margin: 10px;
+    width: 1000px;
+    height: 750px;
+    display: grid;
+    place-items: center;
+}
+.flex {
+    background-color: hsl(0, 0%, 100%);
+    width: 250px;
+    height: 400px;
+    margin: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+}    
+
+img {
+    width : 225px;
+    height : 220px;
+    border-radius: 8px;
+
+}
+p b {
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Space Mono', monospace;
+    font-size: 15px;
+    text-align: center;
+    margin: 10px;
+}
+p{
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    text-align: center;
+    margin: 10px;
+}
